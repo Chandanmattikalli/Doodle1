@@ -1,0 +1,102 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doodle</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            p
+            {
+                font-size:100px;
+                color: white;
+                text-shadow: 5px 5px 5px white;
+                
+            }
+             p#three
+            {
+                font-size:25px;
+                color: white;
+                text-shadow: 5px 5px 5px white;
+                
+            }
+             p#four
+            {
+                font-size:15px;
+                color: white;
+                text-shadow: 5px 5px 5px black;
+            }
+            p#two
+            {
+                color:white;
+                font-style: oblique;
+               
+               -moz-animation-delay: 7s;
+               animation-delay: 7s;
+               -webkit-animation: 7s;
+               
+               -moz-animation:mysec 7s;
+               animation: mysec 7s;
+               -webkit-animation:mysec 7s; 
+               
+               -moz-animation-iteration-count: infinite;
+               animation-iteration-count: infinite;
+               -webkit-animation-iteration-count: infinite;
+               
+               
+            }
+            h1
+            {
+                position:absolute;
+                top:0px;
+                left:40px;
+                border-color: white;
+                -moz-animation:myfirst 7s;
+                animation: myfirst 7s;
+               -webkit-animation: myfirst 7s;
+                
+                -moz-animation-iteration-count: infinite;
+                 animation-iteration-count: infinite;
+               -webkit-animation-iteration-count: infinite;
+            }
+@keyframes myfirst /* Firefox */
+{
+20%   {top:-60px; left:40px;transform:rotate(180deg);}
+35%   {top:-60px ;left:1000px;transform:rotate(180deg);}
+50%   {top:20px ;left:1100px;transform:rotate(360deg);}
+100%  {transform:rotate(360deg);}
+}
+@keyframes mysec
+{
+    50%{color:black;}
+}
+    </style>
+    </head>
+    <h1><p>G</p></h1>
+    <body bgcolor="black">
+        <table cellspacing="15">
+            <tr>
+                <td><p>&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
+                <td><p id="two"> o</p></td>
+                <td><p id="two">o</p></td>
+                <td><p id="two">o</p></td>
+                <td><p id="two">o</p></td>
+                <td><p id="two">o</p></td>
+                <td><p id="two">o</p></td>
+                <td><p id="two">o</p></td>
+                <td><p id="two">o</p></td>
+                <td><p id="two">o</p></td>
+                <td><p id="two">o</p></td>
+                <td><p id="two">o</p></td>
+                <td><p id="two">g</p></td>
+                <td><p id="two">l</p></td>
+                <td><p id="two">e</p></td>
+            </tr>
+        </table>
+        <p id="three">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BLACKEL, the energy saver....</p>
+        <br><br><br>
+        <p id="four">NOTE :1] This animations are tested in mozilla firefox 16.0.2, so if they wont run in other browsers then please run in this version of firefox <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2] It needs wide screen to show animation correctly</p>
+    </body>
+</html>
